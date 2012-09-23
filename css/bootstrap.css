@@ -147,7 +147,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
-  background-color: #e6f1f7;
+  background-color: #f2f2f2;
 }
 a {
   color: #0088cc;
@@ -829,7 +829,7 @@ table {
 }
 .table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .table th,
 .table td {
@@ -837,7 +837,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  /*border-top: 1px solid #dddddd;*/
 }
 .table th {
   font-weight: bold;
@@ -2934,7 +2934,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 .nav > .pull-right {
   float: right;
@@ -3890,14 +3890,14 @@ input[type="submit"].btn.btn-mini {
 }
 .thumbnails > li {
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-left: 20px;
 }
 .thumbnail {
   display: block;
   padding: 4px;
   line-height: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -4523,7 +4523,6 @@ a.thumbnail:hover {
   list-style: none;
   background-color: #ffffff;
   border: 1px solid #ccc;
-  border: 1px solid #000000;
   *border-right-width: 2px;
   *border-bottom-width: 2px;
   -webkit-border-radius: 6px;
@@ -4531,7 +4530,7 @@ a.thumbnail:hover {
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: gray 0em 0em 0.3em;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -4565,13 +4564,13 @@ a.thumbnail:hover {
   color: #ffffff;
   background-color: #ffffff;
   background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffff', GradientType=0);
 }
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
@@ -4738,7 +4737,7 @@ a.thumbnail:hover {
 }
 .carousel-control {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 15px;
   width: 40px;
   height: 40px;
@@ -4749,7 +4748,7 @@ a.thumbnail:hover {
   color: #ffffff;
   text-align: center;
   background: #222222;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   border-radius: 23px;
@@ -4790,7 +4789,7 @@ a.thumbnail:hover {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border: 1px solid #e3e3e3;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -5384,7 +5383,7 @@ button.close {
   [class*="span"] {
     float: left;
     min-height: 1px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .container,
   .navbar-static-top .container,

@@ -4,48 +4,271 @@
 <!-- Le styles -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Catálogo Web</title>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="navbar navbar-fixed-top">
+
+    <!-- Bump Solutions navbar -->
+    <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
-        	<div class="nav-collapse">
-                <ul class="nav pull-left">
-                  <li><a href="#">Anuncie</a></li>
-                  <li><a href="#">Fique por dentro</a></li>
-                  <li><a href="http://www.facebook.com/Catalogo" target="_blank" onMouseOver="document.images['facebook'].src='img/facebook.png';" onMouseOut="document.images['facebook'].src='img/facebookpb.png';"><img src="img/facebookpb.png" alt="Facebook - MobiView" name="facebook" border="0" id="facebook"/></a></li>
-                  <li><a href="#"><img src="img/rss.png" /></a></li>
-                </ul>
-                <ul class="nav pull-right">
-                <li class="pull-right"><a href="#"><div style="height: 7px;" class="input-append"><input placeholder="Encontre..." class="input-medium" style="height: 16px;" id="appendedInput" size="16" type="text"><button class="btn btn-small" type="button" style="height: 26px;">OK</button></div></a></li>
-                </ul>
-            </div>
+            <ul class="nav">
+              <li><a href="#">Anuncie</a></li>
+              <li><a href="#">Fique por dentro</a></li>
+			  <li><a href="http://www.facebook.com/Catalogo" target="_blank" onMouseOver="document.images['facebook'].src='img/facebook.png';" onMouseOut="document.images['facebook'].src='img/facebookpb.png';"><img src="img/facebookpb.png" alt="Facebook - MobiView" name="facebook" border="0" id="facebook"/></a></li>
+              <li><a href="#"><img src="img/rss.png" /></a></li>
+       		</ul>
+            <ul class="nav pull-right">
+        	<li><a href="#"><div style="height: 7px;" class="input-append"><input placeholder="Encontre..." class="input-medium" style="height: 16px;" id="appendedInput" size="16" type="text"><button class="btn btn-small" type="button" style="height: 26px;">OK</button></div></a></li>
+            </ul>
+        
         </div>
       </div>
     </div>
-    <!-- Navbar end -->
-     
-    <!-- Content -->
-    <div class="container well">
-    	
-        <div>
-        dada
+    <!-- Fim da Bump Solutions navbar -->
+  
+    <!-- Catalogo Web menu -->
+<div class="container">
+	<div class="navbar-catalogo">
+  	<div class="navbar-inner-catalogo">
+  
+		<ul class="nav">
+		<table>
+		<tr>
+		
+		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;"src="img/logo_catalogo.png" /></a>
+   		</li>
+   		</td>
+		
+   		<td>
+  		<li class="dropdown" id="comida-nivel-1">
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/comida.png" /></a>
+    		<ul class="dropdown-menu">
+    		<table>
+      			<tr>
+      				<td>
+      					<li class="dropdown" id="restaurantes-nivel-2">
+      						<a href="#" class="dropdown-toggle" data-toggle="dropdown" rel="tooltip" data-placement="top" data-original-title="Restaurantes"><img src="img/restaurante.png"/></a>
+      					
+      						<ul class="dropdown-menu sub-menu">
+    							<table>
+    							
+    								<!-- Comida Oriental -->
+      								<tr>
+      								<td>
+      								<li class="dropdown" id="comida-oriental-nivel-3">
+      									<a href="#" menu-catalogo rel="tooltip" data-placement="top" data-original-title="Oriental">
+      										<img src="img/oriental.png" />
+      									</a>
+      									<!--<ul class="dropdown-menu sub-menu nivel2">
+      										<table>
+      										<tr>
+      										<td>
+      											<a href="#" menu-catalogo rel="tooltip" data-placement="top" data-original-title="Japonesa">
+      												<img src="img/bandeiras/Japan.png" />
+      											</a>
+      										</td>
+      										<td>
+      											<a href="#" menu-catalogo rel="tooltip" data-placement="top" data-original-title="Chinesa">
+      												<img src="img/bandeiras/China.png" />
+      											</a>
+      										</td>
+      										<td>
+      											<a href="#" menu-catalogo rel="tooltip" data-placement="top" data-original-title="Tailandesa">
+      												<img src="img/bandeiras/Thailand.png" />
+      											</a>
+      										</td>
+      										</tr>
+      										</table>
+      									</ul>-->
+      								</li>
+      								</td>
+      								<!-- Comida Oriental -->
+      								
+      								<!-- Frutos do mar -->
+      								<td>
+      								<li>
+      									<a href="#" menu-catalogo rel="tooltip" data-placement="top" data-original-title="Frutos do mar">
+      										<img src="img/frutos-do-mar.png" />
+      									</a>
+      								</li>
+      								</td>
+      								<!-- Frutos do mar -->
+      								
+      								<!-- Massas -->
+      								<td>
+      								<li>
+      									<a href="#" menu-catalogo rel="tooltip" data-placement="top" data-original-title="Massas">
+      										<img src="img/massas.png" />
+      									</a>
+      								</li>
+      								</td>
+      								<!-- Massas -->
+      								</tr>
+      								
+      								<tr>
+      								<!-- Mexicana -->
+      								<td>
+      								<li>
+      									<a href="#" menu-catalogo rel="tooltip" data-placement="bottom" data-original-title="Mexicana">
+      										<img src="img/mexicana.png" />
+      									</a>
+      								</li>
+      								</td>
+      								<!-- Mexicana -->
+      								</tr>
+      								
+      								
+      							</table>
+      						</ul>
+      						
+      					</li>
+      				</td>
+      				
+    				<td><li><a href="#" rel="tooltip" data-placement="top" data-original-title="Bares"><img src="img/bar.png" /></a></li></td>
+    				<td><li><a href="#" rel="tooltip" data-placement="top" data-original-title="Cafés"><img src="img/cafe.png" /></a></li></td>
+    			</tr>
+    			<tr>
+      				<td><li><a href="#" rel="tooltip" data-placement="bottom" data-original-title="Pizzarias"><img src="img/pizza.png" /></a></li></td>
+    				<td><li><a href="#" rel="tooltip" data-placement="bottom" data-original-title="Docerias"><img src="img/doceria.png" /></a></li></td>
+    				<td><li><a href="#" rel="tooltip" data-placement="bottom" data-original-title="Hot-dogs"><img src="img/hot-dog.png" /></a></li></td>
+    			</tr>
+    		</table>
+    		</ul>
+    		
+  		</li>
+  		</td>
+  		
+  		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/baladas.png" /></a>
+   		</li>
+   		</td>
+   		
+   		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/veiculos.png" /></a>
+   		</li>
+   		</td>
+   		
+   		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/animais.png" /></a>
+   		</li>
+   		</td>
+   		
+   		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/infantil.png" /></a>
+   		</li>
+   		</td>
+   		
+   		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/festas.png" /></a>
+   		</li>
+   		</td>
+   		
+   		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/flores.png" /></a>
+   		</li>
+   		</td>
+   		
+   		<td>
+		<li>
+   			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><img style="box-shadow:gray 0em 0.3em 0.5em; border-radius:4px;" src="img/esportes.png" /></a>
+   		</li>
+   		</td>
+  		
+  		</tr>
+  		</table>
+		</ul>		
+		
+		</div>
+	</div>
+</div>
+    <!-- Fim do Catalogo Web menu -->
+    
+    <br>
+      
+    <!-- Destaques pagos -->
+    <div id="myCarousel" class="carousel slide" align="center">
+  		<!-- Carousel items -->
+  		<div class="carousel-inner">
+    		<div class="active item"><a href="#"><img src="img/giovanetti.png"/></a></div>
+    		<div class="item"><a href="#"><img src="img/bk.png"/></a></div>
+    		<div class="item"><a href="#"><img src="img/habibs.png"/></a></div>
+  		</div>
+  	<!-- Carousel nav -->
+  		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  		<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	</div>
+    <!-- Fim dos Destaques pagos -->
+    
+    <!-- 3 Colunas: receitas, vídeos e sei lá -->
+    <div class="container">
+    	<div class="row offset1 span11" align="center">
+    		<div class="span4">
+    			<div class="well">
+    				<h2><small>Receita da semana</small></h2>
+    				<hr>
+    				<iframe style="border-radius:4px;" width="330" height="270" src="http://www.youtube.com/embed/1nZCqoiMvrI" frameborder="0" allowfullscreen></iframe>
+    				<hr>
+    				<h4 style="text-align: justify;"><small>&nbsp;&nbsp;Com receita da culinarista Ana Costa, prepare no liquidificador uma sobremesa feita com flan de chocolate e coco.</small></h4>
+    			</div>
+    		</div>
+    		
+    		<div class="span3">
+    			<div class="well">
+    				<h2><small>Coluna2 span3</small></h2>
+    				<hr>
+    				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    			</div>
+    		</div>
+    		
+    		<div class="span3">
+    			<div class="well">
+    				<h2><small>Coluna3 span3</small></h2>
+    				<hr>
+    				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    			</div>
+    		</div>
     	</div>
-        
     </div>
-    <!-- Content end -->
+    <!-- Fim das 3 colunas -->
     
     
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery-1.7.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/carousel.js"></script>
-    <script>$('#example').tooltip(options)</script> 
+    <!-- Rodapé -->
+	<br>     
+   		<footer>
+        	<div class="container" align="center">
+				<a href="www.bumpsolutions.com.br"><h5><small><img src="img/logo-footer.png"></a> © 2012 | Todos os direitos reservados</small></h5>
+			</div>
+		</footer>
+	<br>
+    
+    
+    <!-- Colocados no final do arquivo faz a página carregar mais rápido -->
+	<script language="javascript" src="js/jquery.js"></script>
+    <script language="javascript" src="js/bootstrap.js"></script>
+    <script language="javascript" src="js/carousel.js"></script>
+	<script language="javascript" src="js/bootstrap-tooltip.js"></script>
+	<script language="javascript" src="js/bootstrap-popover.js"></script>
+	<script type="text/javascript">
+  		$(document).ready(function () {
+    	$("[rel=tooltip]").tooltip();
+  		});
+	</script>
+	<script type="text/javascript">
+  		$(document).ready(function () {
+    	$("[rel=popover]").popover();
+  		});
+	</script>
 </body>
 </html>
